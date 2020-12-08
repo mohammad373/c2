@@ -17,7 +17,7 @@ def __admin__():
             try:
                 pw = inpur(Fore.RED + "\n[!] - Enter Your PassWord ==>" + Fore.BLACK + "  ")
                 if pw != password:
-                    print(f"Your Pass Word Is Not Found ;(  .  Your Have {4-i} Time More .")
+                    print(f"\nYour Pass Word Is Not Found ;(  .  Your Have {4-i} Time More .")
 
                 if pw == password:
                     try:
@@ -38,4 +38,4 @@ def __admin__():
                         sys.exit()
                     except:
                         pass
-__admin__()
+    __admin__()
