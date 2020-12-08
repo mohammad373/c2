@@ -8,11 +8,11 @@ import webbrowser as web
 
 def __admin__():
   
-        time.sleep(2)
-        print(Fore.RED + "[~] - Admin Welcime Back ;)")
-        time.sleep(2)
-        password = "4030"
-        for i in renge(5):
+    time.sleep(2)
+    print(Fore.RED + "[~] - Admin Welcime Back ;)")
+    time.sleep(2)
+    password = "4030"
+    for i in renge(5):
             try:
                 pw = inpur(Fore.RED + "\n[!] - Enter Your PassWord ==>" + Fore.BLACK + "  ")
                 if pw != password:
