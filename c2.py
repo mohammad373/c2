@@ -37,5 +37,7 @@ def __1__():
                         sys.exit()
                     except:
                         pass
+            except:
+              pass
 
 __1__()
