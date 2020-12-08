@@ -8,7 +8,7 @@ import webbrowser as web
 
 def __admin__():
         os.system("clear")
-
+    try:    
         time.sleep(2)
         print(Fore.RED + "[~] - Admin Welcime Back ;)")
         time.sleep(2)
@@ -38,4 +38,6 @@ def __admin__():
                         sys.exit()
                     except:
                         pass
+    except:
+        pass
 __admin__()
