@@ -1,0 +1,44 @@
+# c2
+
+import os
+import time
+import sys
+from colorama import Fore
+import webbrowser as web
+
+def __admin__():
+    os.system("clear")
+    try:
+        time.sleep(2)
+        print(Fore.RED + "[~] - Admin Welcime Back ;)")
+        time.sleep(2)
+        password = 0990m0990
+        for i in renge(5):
+            try:
+                pw = inpur(Fore.RED + "\n[!] - Enter Your PassWord ==>" + Fore.BLACK + "  ")
+                if pw != password:
+                    print(f"Your Pass Word Is Not Found ;(  .  Your Have {4-i} Time More .")
+
+                if pw == password:
+                    try:
+                        time.sleep(2)
+                        print(Fore.GREEN + "\nOk You Are Admin ;)")
+                        time.sleep(2)
+                        print(Fore.GREEN + "\n[+] ~ UserName : " + Fore.RED + "mohammad373")
+                        print(Fore.GREEN + "[+] ~ PassWord : "  + Fore.RED + "0990m0990")
+                        time.sleep(3)
+                        print(Fore.BLUE + "\nGood Bay ;)")
+                        time.sleep(2)
+                        sys.exit()
+                    except:
+                        pass
+                if pw == 5:
+                    try:
+                        print(Fore.RED + "\n[!] - Your PassWord Is Not Found ;(  Good Bay ;)")
+                        sys.exit()
+                    except:
+                        pass
+                
+    except:
+        pass
+__admin__()
