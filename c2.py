@@ -15,7 +15,7 @@ def __1__():
     password = "4030"
     for i in range(5):
             try:
-                pw = inpur(Fore.RED + "\n[!] - Enter Your PassWord ==>" + Fore.BLACK + "  ")
+                    pw = inpur(Fore.RED + "\n[!] - Enter Your PassWord ==>" + Fore.BLACK + "  ")
                 if pw != password:
                     print(f"\nYour Pass Word Is Not Found ;(  .  Your Have {4-i} Time More .")
 
