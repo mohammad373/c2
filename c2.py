@@ -7,7 +7,7 @@ from colorama import Fore
 import webbrowser as web
 
 def __admin__():
-        os.system("clear")
+    os.system("clear")
     try:    
         time.sleep(2)
         print(Fore.RED + "[~] - Admin Welcime Back ;)")
