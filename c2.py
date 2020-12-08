@@ -38,6 +38,4 @@ def __admin__():
                         sys.exit()
                     except:
                         pass
-                
-
 __admin__()
